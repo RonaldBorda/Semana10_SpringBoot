@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class Servicio {
 	@RequestMapping("/producto")
 	public String mostrar() {
-		String cod="001";
-		String des="producto de construcción";
-		String pre="s/700.5";
+		String cod="002";
+		String des="Producto tecnologico";
+		String pre="s/500.5";
 		System.out.println("Codigo: 001");
 		System.out.println("Descripción: producto de construcción");
 		System.out.println("Precio: s/700.5");
