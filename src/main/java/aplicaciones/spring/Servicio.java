@@ -8,7 +8,7 @@ public class Servicio {
 	@RequestMapping("/producto")
 	public String mostrar() {
 		String cod="002";
-		String des="Producto domestico";
+		String des="Productos Promart";
 		String pre="s/100.5";
 		System.out.println("Codigo: 002");
 		System.out.println("Descripción: producto domestico");
